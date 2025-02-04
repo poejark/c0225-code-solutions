@@ -1,7 +1,7 @@
 'use strict';
 const number = 9200;
 const street = 'Irvine Center Drive';
-const address = number + ' ' + street;
+const address = `${number} ${street}`;
 console.log('LearningFuze:', address);
 const firstName = 'Uzair';
 const lastName = 'Ashraf';

@@ -1,6 +1,6 @@
 const number: number = 9200;
 const street: string = 'Irvine Center Drive';
-const address: string = number + ' ' + street;
+const address: string = `${number} ${street}`;
 
 console.log('LearningFuze:', address);
 
