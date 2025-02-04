@@ -1,0 +1,18 @@
+'use strict';
+const colors = ['red', 'white', 'blue'];
+console.log('first color:', colors[0]);
+console.log('second color:', colors[1]);
+console.log('third color:', colors[2]);
+console.log(`America is ${colors[0]}, ${colors[1]}, and ${colors[2]}.`);
+colors[2] = 'green';
+console.log(`Mexico is ${colors[0]}, ${colors[1]}, and ${colors[2]}.`);
+console.log('value of the colors array: ', colors);
+console.log('Type of colors array: ', typeof colors);
+const students = ['Joe', 'Kyle', 'Mike', 'Ryan'];
+const numberOfStudents = students.length;
+console.log('Number of students: ', numberOfStudents);
+const lastIndex = numberOfStudents - 1;
+const lastStudent = students[lastIndex];
+console.log('The Last Student: ', lastStudent);
+console.log('student array:', students);
+console.log('Type of Students: ', typeof students);
