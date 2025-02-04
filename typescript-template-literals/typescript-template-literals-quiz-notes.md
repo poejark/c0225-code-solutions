@@ -5,8 +5,9 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the syntax for writing a template literal?
-
+  `${varName}`
 - What is "string interpolation"?
+  The process of embedding values from a variable within a string.
 
 ## Notes
 
