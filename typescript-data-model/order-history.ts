@@ -1,5 +1,6 @@
 interface Item {
   itemRef: string;
+  author?: string;
   returnable: boolean;
   delivered: boolean;
   cost: number;
@@ -28,7 +29,13 @@ const orderHistory: Order[] = [
     totalCharge: 34,
     orderDate: '08042020',
     orderItems: [
-      { itemRef: 'url.com', returnable: false, delivered: true, cost: 34 },
+      {
+        itemRef: 'url.com',
+        author: 'Rauschmayer, Dr. Axel',
+        returnable: false,
+        delivered: true,
+        cost: 34,
+      },
     ],
   },
   {
@@ -39,7 +46,13 @@ const orderHistory: Order[] = [
     totalCharge: 44.53,
     orderDate: '07192020',
     orderItems: [
-      { itemRef: 'url.com', returnable: false, delivered: true, cost: 41.33 },
+      {
+        itemRef: 'url.com',
+        author: 'Alexander, Cristopher',
+        returnable: false,
+        delivered: true,
+        cost: 41.33,
+      },
     ],
   },
   {
@@ -62,7 +75,13 @@ const orderHistory: Order[] = [
     orderDate: '07032020',
     orderItems: [
       { itemRef: 'url.com', returnable: false, delivered: true, cost: 94.95 },
-      { itemRef: 'url.com', returnable: false, delivered: true, cost: 33.99 },
+      {
+        itemRef: 'url.com',
+        author: 'Faroult, Stephane',
+        returnable: false,
+        delivered: true,
+        cost: 33.99,
+      },
     ],
   },
 ];
