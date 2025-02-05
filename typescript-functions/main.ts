@@ -12,30 +12,22 @@ console.log(
   convertMinutesToSeconds(10)
 );
 
-const greet = (name: string): string => {
-  return `Hey ${name}!`;
-};
+const greet = (name: string): string => `Hey ${name}!`;
 
 console.log('greet with argument Joe', greet('Joe'));
 
-const getArea = (width: number, height: number): number => {
-  return width * height;
-};
+const getArea = (width: number, height: number): number => width * height;
 
 console.log('Get Area of w:4 h:8: ', getArea(4, 8));
 
-const getFirstName = (person: Person): string => {
-  return person.firstName;
-};
+const getFirstName = (person: Person): string => person.firstName;
 
 console.log(
   'Get First name of person object: ',
   getFirstName({ firstName: 'Joe', lastName: 'Park' })
 );
 
-const getLastElement = (array: any[]): any => {
-  return array[array.length - 1];
-};
+const getLastElement = (array: any[]): any => array[array.length - 1];
 
 console.log(
   'Get Last Element of a list: ',
