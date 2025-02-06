@@ -13,20 +13,22 @@ console.log('randomIndex value: ', randomIndex);
 const randomHero: string = heroes[randomIndex];
 console.log('random Hero: ', randomHero);
 
-interface book {
+interface Book {
   title: string;
   author: string;
 }
 
-const library: book[] = [
+const library: Book[] = [
   { title: 'The Unfettered Mind', author: 'Takuan Soho' },
   { title: 'Linear Algebra Done Right', author: 'Sheldon Axler' },
+  { title: 'The Lost Book', author: 'unknown' },
 ];
 
 const lastBook = library.pop();
 console.log('Last Book: ', lastBook);
 const firstBook = library.shift();
 console.log('First Book: ', firstBook);
+console.log('library after pop and shift: ', library);
 
 const js = {
   title: 'JavaScript for Impatient Programmers',
@@ -39,8 +41,8 @@ const css = {
 
 library.push(js);
 library.unshift(css);
-library.splice(1);
-console.log(library);
+library.splice(1, 1);
+console.log('new Library:', library);
 
 const fullName: string = 'Joe Park';
 const firstAndLastName: string[] = fullName.split(' ');

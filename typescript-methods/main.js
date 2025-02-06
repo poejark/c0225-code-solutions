@@ -11,11 +11,13 @@ console.log('random Hero: ', randomHero);
 const library = [
   { title: 'The Unfettered Mind', author: 'Takuan Soho' },
   { title: 'Linear Algebra Done Right', author: 'Sheldon Axler' },
+  { title: 'The Lost Book', author: 'unknown' },
 ];
 const lastBook = library.pop();
 console.log('Last Book: ', lastBook);
 const firstBook = library.shift();
 console.log('First Book: ', firstBook);
+console.log('library after pop and shift: ', library);
 const js = {
   title: 'JavaScript for Impatient Programmers',
   author: 'Dr. Axel Rauschmayer',
@@ -26,8 +28,8 @@ const css = {
 };
 library.push(js);
 library.unshift(css);
-library.splice(1);
-console.log(library);
+library.splice(1, 1);
+console.log('new Library:', library);
 const fullName = 'Joe Park';
 const firstAndLastName = fullName.split(' ');
 console.log(firstAndLastName);
