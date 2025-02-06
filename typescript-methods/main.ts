@@ -1,0 +1,69 @@
+const heroes: string[] = [
+  'Green Lantern',
+  'Dr. Manhattan',
+  'Superman',
+  'Iron Man',
+];
+let randomNumber: number = Math.random();
+console.log('random number, should be between 0 and 1', randomNumber);
+randomNumber = randomNumber * heroes.length;
+console.log('random number multiplied by array length', randomNumber);
+const randomIndex: number = Math.floor(randomNumber);
+console.log('randomIndex value: ', randomIndex);
+const randomHero: string = heroes[randomIndex];
+console.log('random Hero: ', randomHero);
+
+interface Book {
+  title: string;
+  author: string;
+}
+
+const library: Book[] = [
+  { title: 'The Unfettered Mind', author: 'Takuan Soho' },
+  { title: 'Linear Algebra Done Right', author: 'Sheldon Axler' },
+  { title: 'The Lost Book', author: 'unknown' },
+];
+
+const lastBook = library.pop();
+console.log('Last Book: ', lastBook);
+const firstBook = library.shift();
+console.log('First Book: ', firstBook);
+console.log('library after pop and shift: ', library);
+
+const js = {
+  title: 'JavaScript for Impatient Programmers',
+  author: 'Dr. Axel Rauschmayer',
+};
+const css = {
+  title: 'CSS Secrets',
+  author: 'Lea Verou',
+};
+
+library.push(js);
+library.unshift(css);
+library.splice(1, 1);
+console.log('new Library:', library);
+
+const fullName: string = 'Joe Park';
+const firstAndLastName: string[] = fullName.split(' ');
+console.log(firstAndLastName);
+const firstName: string = firstAndLastName[0];
+const sayMyName = firstName.toUpperCase();
+console.log('say my name: ', sayMyName);
+
+// interface Employee {
+//   name: string;
+//   age: number;
+//   position: string;
+// }
+
+const employee = { name: 'Bub', age: 30, position: 'grunt' };
+
+const employeeKeys: string[] = Object.keys(employee);
+console.log('Employee Keys: ', employeeKeys);
+
+const employeeValues: any[] = Object.values(employee);
+console.log('Employee Values: ', employeeValues);
+
+const employeePairs: any[] = Object.entries(employee);
+console.log('Employee pairs: ', employeePairs);
