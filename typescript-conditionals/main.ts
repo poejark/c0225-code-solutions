@@ -69,7 +69,9 @@ function categorizeAcidity(pH: number): string {
 
 function introduceWarnerBro(name: string): string {
   switch (name) {
-    case 'yakko' || 'wakko':
+    case 'yakko':
+      return "We're the warner brothers!";
+    case 'wakko':
       return "We're the warner brothers!";
     case 'dot':
       return "I'm cute~";
@@ -77,6 +79,8 @@ function introduceWarnerBro(name: string): string {
       return 'Goodnight everybody!';
   }
 }
+
+// console.log(introduceWarnerBro('wakko'));
 
 const recommendMovie = (genre: string): string => {
   switch (genre) {

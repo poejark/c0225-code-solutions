@@ -39,7 +39,12 @@ const isOldEnoughToDrive = (person) => {
   }
   return false;
 };
-const isOldEnoughToDrinkAndDrive = (person) => false;
+const isOldEnoughToDrinkAndDrive = (person) => {
+  if (person) {
+    return false;
+  }
+  return false;
+};
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
@@ -53,7 +58,9 @@ function categorizeAcidity(pH) {
 }
 function introduceWarnerBro(name) {
   switch (name) {
-    case 'yakko' || 'wakko':
+    case 'yakko':
+      return "We're the warner brothers!";
+    case 'wakko':
       return "We're the warner brothers!";
     case 'dot':
       return "I'm cute~";
@@ -61,6 +68,7 @@ function introduceWarnerBro(name) {
       return 'Goodnight everybody!';
   }
 }
+// console.log(introduceWarnerBro('wakko'));
 const recommendMovie = (genre) => {
   switch (genre) {
     case 'action':
