@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+
+  /* justify-content: center; */
+
+  /* align-items: center; */
+
+  /* height: 20%; */
+}
+
+.container {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-third {
+  flex-basis: calc((100% / 3) * 2);
+}
+
+.column-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+img {
+  width: 100%;
+}
