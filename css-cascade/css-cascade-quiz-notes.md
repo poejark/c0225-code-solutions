@@ -5,7 +5,7 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What are the four components of "the Cascade".
-  source order, specificity, inheritance, and style(?)
+  source order, specificity, inheritance, and important.
 - What does the term "source order" mean with respect to CSS?
   the order in which rulesets are defined within the css sheet.
 - How is it possible for the styles of an element to be applied to its children as well without an additional CSS rule?
