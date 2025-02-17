@@ -7,7 +7,7 @@ Answer the following questions in the provided markdown file before turning in t
 - Why do we log things to the console?
   for development feedback and contextual information.
 - What is a "model"?
-
+  My best answer would be an abstract representation of a complex system.
 - Which "document" is being referred to in the phrase Document Object Model?
   The HTML document.
 - What is the word "object" referring to in the phrase Document Object Model?
