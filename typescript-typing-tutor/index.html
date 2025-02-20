@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button class="open-modal">Start Game</button>
+    <dialog>
+      <div class="modal-actions">
+        <div class="row">
+          <div class="column-full">
+            <form action="">
+              <p>Input your phrase to play</p>
+              <textarea id="string-input" rows="5">
+Lorem ipsum odor amet, consectetuer adipiscing elit.</textarea
+              >
+              <br />
+              <input
+                type="submit"
+                class="button-submit dismiss-modal"
+                value="LET'S GO!" />
+              <!-- <button class="dismiss-modal button-submit">LET'S GO!</button> -->
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column-full"></div>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="phrase-wrapper"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
