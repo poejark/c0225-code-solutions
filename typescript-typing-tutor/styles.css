@@ -1,0 +1,81 @@
+.phrase-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: pre;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+button {
+  color: white;
+  background-color: hotpink;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.button-submit {
+  color: white;
+  background-color: hotpink;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+dialog {
+  border-color: transparent;
+}
+
+dialog::backdrop {
+  background-color: rgba(52, 96, 103, 0.8);
+}
+
+.modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 1rem;
+}
+
+/* .open-modal {
+} */
+
+.letter {
+  font-size: 22px;
+}
+
+.letter.open {
+  color: black;
+}
+
+.letter.pass {
+  color: lightgreen;
+}
+
+.letter.current {
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.letter.wrong {
+  text-decoration: underline;
+  color: red;
+}
