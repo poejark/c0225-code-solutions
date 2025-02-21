@@ -1,0 +1,33 @@
+.bulb-wrap.light {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fef9f1;
+}
+
+.bulb-wrap.dark {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+}
+
+.bulb.light {
+  border-radius: 50%;
+  width: 50vh;
+  height: 50vh;
+  background-color: #faea84;
+  box-shadow: 0 0 40px#faea84;
+}
+
+.bulb.dark {
+  border-radius: 50%;
+  width: 50vh;
+  height: 50vh;
+  background-color: #252525;
+  box-shadow: 0 -20px 40px #4a4a4a;
+}
