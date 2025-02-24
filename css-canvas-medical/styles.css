@@ -1,0 +1,273 @@
+.container {
+  /* display: flex; */
+
+  /* align-items: center;
+  justify-content: center; */
+
+  /* margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0; */
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.nav {
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  scale: 50%;
+}
+
+.nav-link {
+  color: gray;
+  text-decoration-line: none;
+  font-family: Avenir, sans-serif;
+  position: relative;
+  left: 8px;
+
+  /* align-items: center; */
+  text-align: center;
+  line-height: 50px;
+
+  /* justify-content: center; */
+}
+
+.nav-link-implementation {
+  color: gray;
+  text-decoration-line: none;
+  font-family: Avenir, sans-serif;
+  position: relative;
+  right: 12px;
+
+  /* align-items: center; */
+  text-align: center;
+  line-height: 50px;
+}
+
+.blue-button {
+  background-color: #294465;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #294465;
+  padding: 12px;
+}
+
+.nav-contact-us-button {
+  position: relative;
+  left: 0 auto;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-two-thirds {
+  flex-basis: calc(200% / 3);
+}
+
+.image-wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  position: relative;
+  scale: 100%;
+}
+
+.background-image {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+
+  /* filter: brightness(0.8); */
+  filter: brightness(80%);
+
+  /* position: relative; */
+}
+
+.image-text {
+  position: absolute;
+  color: white;
+  left: 8%;
+  top: 10%;
+  width: 49%;
+
+  /* position: absolute; */
+
+  /* color: white; */
+}
+
+#image-txt {
+  font-size: 19px;
+  font-family: Avenir, sans-serif;
+}
+
+#header-txt {
+  font-size: 38px;
+  font-family: 'Tiempos Headline', sans-serif;
+  font-weight: normal;
+}
+
+.get-started-button {
+  position: relative;
+  top: 20px;
+  width: 35%;
+  font-size: 18px;
+  font-family: Avenir, sans-serif;
+}
+
+/* .background-image-gradient {
+} */
+
+.column-one-half {
+  flex-basis: 50%;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.column-one-third {
+  flex-basis: 33.3%;
+}
+
+.column-one-tenths {
+  flex-basis: 10%;
+}
+
+.column-one-twelve {
+  flex-basis: calc(100% / 12);
+}
+
+.clinicians-preference-wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #fafafa;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#clinicians-prefer-canvas {
+  text-align: center;
+}
+
+.clinicians-prefer-canvas-text {
+  font: 'Tiempos Headline', sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  color: #6e6e6e;
+  margin-bottom: 0;
+}
+
+.clinicians-prefer-canvas-text-2 {
+  font-family: Avenir, sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  padding-top: 0;
+  color: #6e6e6e;
+}
+
+#learn-more {
+  position: relative;
+  left: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.vouches {
+  text-align: center;
+  color: #6e6e6e;
+  font-size: 18px;
+  font-family: Avenir, sans-serif;
+
+  /* justify-content: center; */
+}
+
+.padded {
+  padding: 30px;
+}
+
+.bottom {
+  border-bottom: 1px lightgray solid;
+}
+
+.heading {
+  font: 'Tiempos Headline', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #6e6e6e;
+  margin-bottom: 0;
+}
+
+#learn-more-get-started-button {
+  position: relative;
+  margin-right: 0;
+  margin-left: 150px;
+}
+
+.bottom-page-wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #525351;
+  top: 0;
+
+  /* display: flex; */
+
+  /* flex-wrap: wrap; */
+  padding-bottom: 70px;
+  margin-bottom: 0;
+}
+
+.info-chunk {
+  color: white;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.bottom-links {
+  position: relative;
+  margin-top: 110px;
+  margin-left: 30px;
+  color: white;
+  font-family: Avenir, sans-serif;
+}
+
+/*
+.bottom-links-2 {
+  position: relative;
+  margin-top: 110px;
+  margin-right: 30px;
+  color: white;
+  font-family: Avenir, sans-serif;
+} */
+
+.bottom-wrap-final {
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #fafafa;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-text {
+  margin-top: 0;
+  font-family: Avenir, sans-serif;
+  padding: 40px;
+  font-size: 16px;
+  color: #999;
+}
